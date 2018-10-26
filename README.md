@@ -29,12 +29,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 webpack+node.js+vue.js+mintUi+axios+vuerouter...(No use vuex)
 
 
-#### 使用说明
-
-1. xxxx
-2. xxxx
-3. xxxx
-
 #### 参与贡献
 
 1. Fork 本项目
