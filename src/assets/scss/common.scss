@@ -1,0 +1,55 @@
+/**
+ * Created By WiFi ON 2018/4/3 11:26
+ */
+@import "_reset.scss";
+@import "_base.scss";
+
+
+body {
+  font-size: 10px;
+  background:rgba(243,243,243,1);
+}
+.main{padding: 0 0 15px 0;}
+@font-face {
+  font-family: 'iconfont';  /* project id 754097 */
+  src: url('//at.alicdn.com/t/font_754097_wk2r9m9cbud.eot');
+  src: url('//at.alicdn.com/t/font_754097_wk2r9m9cbud.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_754097_wk2r9m9cbud.woff') format('woff'),
+  url('//at.alicdn.com/t/font_754097_wk2r9m9cbud.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_754097_wk2r9m9cbud.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.box{padding-top:0.22rem; width: 100%;height: 1.95rem;background-color: #009688;color: #fff;  }
+.nomal_box{    padding-top: 0.24rem;width: 100%;height: 1.77rem;background-color: #009688;color: #fff;}
+.big_font{font-size:0.36rem; height: 0.5rem; line-height: 0.5rem;}
+.nomal_font{font-size:0.2rem;height: 0.28rem; line-height: 0.28rem;}
+.small_font{font-size:0.14rem;height: 0.2rem; line-height: 0.2rem; opacity: 0.7; color:rgba(255,255,255,1);}
+.border{width:1px;height:0.31rem; margin-top: 0.09rem; background:rgba(255,255,255,1);}
+.button{width: 1.46rem;height: 0.32rem; line-height: 0.32rem; margin-left:1.14rem;cursor: pointer; font-size: 0.16rem; background-color: #fff;color:#009688; border-radius: 10rem;box-shadow:0px 2px 5px 0px rgba(0,0,0,0.13); }
+.blacl_font{margin-left:0.16rem; text-align: left; font-size: 0.14rem; color: #000000;}
+.skyBlue{background:rgba(0,150,136,0.4);}
+.waterBlue{background:rgba(0,150,136,0.25);}
+.black_color{ font-size: 0.14rem; color:#7F7F7F; margin-left: 0.03rem;}
+//model模块
+.model{width: 3.43rem; height:1.42rem; margin: 0.16rem auto; border-radius:0.04rem; box-shadow:0px 2px 5px 0px rgba(0,0,0,0.13); background: #FFFFFF; }
+.model_header{height: 0.55rem; padding:0 0.15rem; line-height: 0.55rem; border-bottom: 1px #D8D8D8 solid;}
+//icon
+.icon{width: 0.24rem; height: 0.24rem; margin: -0.05rem 0 0 0; color: #000000;}
+.model_title{padding: 0 0.15rem;color: #000000; font-size: 0.16rem;}
+.record{margin-top: 0.16rem; height: 0.24rem; line-height: 0.24rem; font-size:0.24rem; color:#FFC107;}
+.model_body{padding: 0 0.15rem;
+    .model_content{
+        margin-top: 0.18rem;
+    }
+    .model_money{
+        height: 0.24rem;
+        line-height: 0.24rem;
+        font-size:0.14rem ;
+    }
+ }

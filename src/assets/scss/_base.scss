@@ -1,0 +1,71 @@
+/**
+ *  基础样式
+ * Created By WiFi ON 2018/4/3 11:27
+ */
+/**字体大小*/
+$baseFontSizeS: 24px;
+$baseFontSizeM: 36px;
+$baseFontSizeL: 48px;
+
+$baseTitleFontSize: $baseFontSizeL; /*主体大标题字体大小*/
+$baseIntroFontSize: $baseFontSizeS;
+
+
+/**图片路径*/
+$imgPath: "../../../assets/imgs/";
+/*主题色*/
+$mainColor: #009688;
+$titleColor: $mainColor;
+
+$thin: 100;
+
+$BaseC:#555;
+$LinkC:#06f;
+$HoverC:#f60;
+h3.title{
+  font-size: $baseFontSizeL;
+  font-weight: $thin;
+}
+.center {
+  text-align: center;
+}
+.clear {
+  clear: both;
+}
+.inline-block {
+  display: inline-block;
+}
+.block {
+  display: block;
+}
+.relative {
+  position: relative;
+}
+.text-align-left {
+  text-align: left;
+}
+.text-align-right {
+  text-align: right;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.display-block {
+  display: block;
+}
+.display-none {
+  display: none;
+}
+.flex {
+  display: flex;
+}
+.flex1 { flex: 1;}
+.flex2 { flex: 2;}
+.flex3 { flex: 3;}
+.flex4 { flex: 4;}
+.flex5 { flex: 5;}
+.flex6 { flex: 6;}
+.flex7 { flex: 7;}
+.flex8 { flex: 8;}
+.flex9 { flex: 9;}
+.flex10 { flex: 10;}
