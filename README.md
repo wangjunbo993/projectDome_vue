@@ -1,7 +1,5 @@
 # tdt-web
 
-# tdt-web
-
 > A Vue.js project
 
 ## Build Setup
@@ -25,15 +23,11 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 #### 项目介绍
 
+一个在线教学视频交易平台（基于微信端）
+
 #### 软件架构
-软件架构说明
+webpack+node.js+vue.js+mintUi+axios+vuerouter...(No use vuex)
 
-
-#### 安装教程
-
-1. xxxx
-2. xxxx
-3. xxxx
 
 #### 使用说明
 
